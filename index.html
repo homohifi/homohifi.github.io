@@ -1,13 +1,83 @@
-第一次使用这样方便的协作功能，非常激动，总的说来，clone比起一般的下载（download）的优势主要体现在
-自动建立工程文件结构，同时还有将修改工程上传这样优秀的功能，有时间应该在pycharm上也要试一试。
-
-关于利用GitHub来建立个人网页，主要依赖的是responsitory（仓库）的特性，仓库可以存储包括code、wiki以及
-技术手册等文档，并且可以通过clone、pull、push等功能来实现大量资料、工程文件的传输与修改，那么网页文件
-也就是html、css、js文件的工程文件，通过将其转为仓库的方式，让其他人再安装访问仓库的方式就可以访问当网页
-了的法国电视公司的方法告诉对方公司
-
-
-
-
-
-嘎嘎嘎嘎嘎嘎嘎嘎嘎嘎
+<style>
+  .submit-button{
+  width:150px;
+  color:coral;
+  }
+  #survey-form{
+  color:cyan;
+  }
+  
+  #selection{
+  color:darkseagreen;
+  
+  }
+  body{
+  color:darkmagenta;
+  text-align: center;
+  }
+  .input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+  }
+  </style>
+  
+  <main>
+      <body>
+  <h1 id="title">A test about happiness		By 机械191何安康</h1>
+  <p id="description">Let's start by some small questions</p>
+  <form id="survey-form">    
+  
+  Name<input 
+  id="name-label"
+  type="text" 
+  action="https://www.freecatphotoapp.com/submit-cat-photo" 
+  required 
+  placeholder="Enter your Name">
+  
+  Email<input 
+  id="email-label"
+  type="email" 
+  action="https://www.freecatphotoapp.com/submit-cat-photo" 
+  required 
+  placeholder="Enter your Email">
+  
+  Age<input 
+  id="number-label"
+  type="number" 
+  action="https://www.freecatphotoapp.com/submit-cat-photo" 
+  required 
+  placeholder="Enter your Age"
+  min=1
+  max=200>
+  
+  <h2>Which kind of mea do you like to eat</h2>>
+  <label for="beef"><input id="beef" type="checkbox" value="beef" name="meat">beef</label>>
+  <label for="fish"><input id="fish" type="checkbox" value="beef" name="meat">fish</label>>
+  <label for="pork"><input id="pork" type="checkbox" value="beef" name="meat">pork</label>>
+  
+  <div id="selection">
+  <p>What's your favorite color</p>>
+  <select name="color" id="dropdown">
+      <option value="red">red</option>
+      <option value="green">green</option>
+      <option value="purple">purple</option>
+      <option value="blue">blue</option>
+      </select>
+      </div>>
+  
+      <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+  
+      <button type="submit" class="submit-button">Submit</button>>
+  </form>
+  </body>>
+  </main>
